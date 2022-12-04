@@ -1,6 +1,9 @@
 /* Box Model Hack */
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
 }
 
 /* Clear fix hack */
@@ -20,3 +23,13 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
+#canvas1 {
+  border: black 2px solid;
+  width: 500px;
+  height: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: black;
+}
